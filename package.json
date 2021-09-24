@@ -1,0 +1,27 @@
+{
+  "name": "sd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sd.js",
+  "private": "true",
+  "scripts": {
+    "start": "NODE_ENV=localhost nodemon sd.js"
+  },
+  "author": "arun Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.13.2",
+    "validator": "^13.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
